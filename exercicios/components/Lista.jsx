@@ -1,6 +1,6 @@
 export default function Lista(props){
     return(
-        <ul>
+        <ul style={{listStyle:'none'}}>
             {props.children}
         </ul>
     )

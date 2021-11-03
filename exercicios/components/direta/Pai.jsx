@@ -1,9 +1,11 @@
 import Filho from "./Filho";
 
-export default function Pai(){
+export default function Pai(props){
     return(
         <div>
-            <Filho familia="Albuquerque" nome="Pedro" />
+            <Filho familia={props.familia} nome="Pedro" />
+            <Filho familia={props.familia} nome="Joana" />
+            <Filho nome="Pedro" {...props} />
         </div>
     )
 }
