@@ -1,10 +1,14 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import NumeroDisplay from '../components/NumeroDisplay'
 import { mega } from "../functions/mega"
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const [numeros, setNumeros] = useState(mega())
+
+  useEffect(() => {
+    setNumeros(mega())
+  }, [])
 
   function renderNumeros(){
     return numeros.map(
