@@ -8,7 +8,7 @@ Para conhecer, o curso [clique aqui](https://www.udemy.com/course/nextjs-e-react
 
 # COMO EXECUTAR
 Primeiramente, faça um clone do projeto em seu computador rodando o comando
-````
+```
 git clone https://github.com/reinaldonunes/ReactNextFront.git
 ```
 
