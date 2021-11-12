@@ -18,6 +18,10 @@ export default function botao(){
             <button onClick={e => acao5(e)}>Clique-me!</button>
 
             <input type="text" onChange={e => console.log(e.target.value)} />
+
+            <div>
+                <i>(Obs: abra o console ou o terminal para ver os dados)</i>
+            </div>
         </div>
     )
 }

@@ -11,76 +11,42 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="basicos/jsx1" className={styles.card}>
-            <h2>JSX #1</h2>
+          <a href="01_jsx" className={styles.card}>
+            <h2>Usando JSX</h2>
             <p>Fundamentos do JSX</p>
           </a>
 
-          <a href="basicos/jsx2" className={styles.card}>
-            <h2>JSX #2</h2>
-            <p>Fundamentos do JSX</p>
+          <a href="02_lists" className={styles.card}>
+            <h2>Exibindo listas</h2>
+            <p>Métodos de exibição</p>
           </a>
 
-          <a href="basicos/jsx3" className={styles.card}>
-            <h2>JSX #3</h2>
-            <p>Fundamentos do JSX</p>
+          <a href="03_components" className={styles.card}>
+            <h2>Componetização</h2>
+            <p>Utilizando componentes</p>
           </a>
 
-          <a href="basicos/jsx4" className={styles.card}>
-            <h2>JSX #4</h2>
-            <p>Fundamentos do JSX</p>
+          <a href="04_interacao_css" className={styles.card}>
+            <h2>Integrando o CSS</h2>
+            <p>Métodos de utilização e importação</p>
           </a>
 
-          <a href="basicos2/usandoTitulo" className={styles.card}>
-            <h2>Usando Título</h2>
-            <p>Passando valores via componentes</p>
+          <a href="05_renderizacoes" className={styles.card}>
+            <h2>Renderizando dados</h2>
+            <p>Populando dados dinamicamente</p>
           </a>
 
-          <a href="basicos2/propsSomenteLeitura" className={styles.card}>
-            <h2>Props somente leitura</h2>
-            <p>Passando valores via componentes</p>
+          <a href="06_fluxo_dados" className={styles.card}>
+            <h2>Fluxo de dados</h2>
+            <p>Passagem de parâmetros, eventos e estados</p>
           </a>
 
-          <a href="basicos2/mostraLista" className={styles.card}>
-            <h2>Exibindo Lista</h2>
-            <p>Montando uma lista com props e components</p>
+          <a href="07_oop_tipagem" className={styles.card}>
+            <h2>Classes e Typescript</h2>
+            <p>Aplicando a POO e Tipagem de dados</p>
           </a>
 
-          <a href="basicos2/componenteFilhos" className={styles.card}>
-            <h2>Componente Filho</h2>
-            <p>Componente recebendo e passando valor</p>
-          </a>
-
-          <a href="comunicacao/direta" className={styles.card}>
-            <h2>Comunicação Direta</h2>
-            <p>Passagem de valores de modo direto via componente</p>
-          </a>
-
-          <a href="comunicacao/indireta" className={styles.card}>
-            <h2>Comunicação Indireta</h2>
-            <p>Passagem de valores de modo indireto via componente</p>
-          </a>
-
-          <a href="css/integracaoCss" className={styles.card}>
-            <h2>Integração com CSS</h2>
-            <p>Formas de passar o CSS para um componente ou elemento em tela</p>
-          </a>
-
-          <a href="estado/mouse" className={styles.card}>
-            <h2>Estados de um Elemento</h2>
-            <p>Mudando e alterando estados de um objeto em tela</p>
-          </a>
-
-          <a href="eventos/botao" className={styles.card}>
-            <h2>Eventos de um elemento</h2>
-            <p>Trabalhando com eventos de um botão</p>
-          </a>
-
-          <a href="estado/formulario" className={styles.card}>
-            <h2>Componentes Controlados</h2>
-            <p>Controlando dados de um formulário</p>
-          </a>
-        </div>
+                  </div>
       </main>
 
       <footer className={styles.footer}>
@@ -89,10 +55,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Powered by&nbsp;<strong>Reinaldo J. Nunes</strong>
         </a>
       </footer>
     </div>
