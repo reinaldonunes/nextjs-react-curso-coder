@@ -18,7 +18,7 @@ npm i
 ```
 
 Após concluído, acesse a pasta *exercícios* ou a pasta *projetos/projeto escolhido* e rode 
-````
+```
 npm run dev
 ```
 
