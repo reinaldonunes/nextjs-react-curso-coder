@@ -1,6 +1,7 @@
 export default function list(){
     return(
-        <div>
+        <div className="contentPaths">
+            <h1>Renderizando listas do modo tradicional</h1>
             <span>1,</span>
             <span>2,</span>
             <span>3,</span>

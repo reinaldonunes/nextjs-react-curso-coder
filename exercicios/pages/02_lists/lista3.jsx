@@ -9,7 +9,8 @@ function listagem(){
 
 export default function(){
     return(
-        <div>
+        <div className="contentPaths">
+            <h1>Renderizando listas com <i>FOR</i> e <i>PUSH</i></h1>
             {listagem()}
         </div>
     )

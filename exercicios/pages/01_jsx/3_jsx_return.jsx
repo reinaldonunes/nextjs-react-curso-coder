@@ -1,7 +1,7 @@
-export default function jsx2(){
+export default function jsx03(){
    const content = (
         <div>
-            <h2>JSX #02</h2>
+            <h2>JSX #03</h2>
         </div>
    )
 

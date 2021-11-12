@@ -9,14 +9,15 @@ function listagem(){
         <span>7,</span>,
         <span>8,</span>,
         <span>9,</span>,
-        <span>10</span>,
+        <span>10</span>
     ]
     return list
 }
 
 export default function(){
     return(
-        <div>
+        <div className="contentPaths">
+            <h1>Renderizando listas com uma função</h1>
             {listagem()}
         </div>
     )
