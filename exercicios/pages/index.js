@@ -46,7 +46,17 @@ export default function Home() {
             <p>Aplicando a POO e Tipagem de dados</p>
           </a>
 
-                  </div>
+          <a href="08_routes" className={styles.card}>
+            <h2>Rotas</h2>
+            <p>Configurando rotas de arquivos</p>
+          </a>
+
+          <a href="09_apis" className={styles.card}>
+            <h2>API's</h2>
+            <p>Configurando suas API's</p>
+          </a>
+
+        </div>
       </main>
 
       <footer className={styles.footer}>
