@@ -16,3 +16,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+:root{
+  --porta-altura:310px;
+  --porta-largura:200px;
+}
+
+.wrapDoors{
+  display:flex;
+  justify-content: center;
+  padding-top:50px;
+
+}
