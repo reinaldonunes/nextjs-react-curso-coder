@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="wrapDoors">
-      <Porta porta={p1}/>
+      <Porta value={p1}/>
     </div>
   )
 }

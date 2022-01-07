@@ -2,12 +2,13 @@ import styles from "../styles/Porta.module.css"
 import Door from "../model/door"
 
 interface PortaProps{
-    porta: Door
+    value: Door
+    onChange                                                    
 }
 
 export default function Porta(props: PortaProps){
 
-    const { porta } = props
+    const porta = props.value
     const selected = porta.selected ? styles.selecionada : ''
 
     return(
