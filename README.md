@@ -9,7 +9,7 @@ Para conhecer, o curso [clique aqui](https://www.udemy.com/course/nextjs-e-react
 # COMO EXECUTAR
 Primeiramente, faça um clone do projeto em seu computador rodando o comando
 ```
-git clone https://github.com/reinaldonunes/ReactNextFront.git
+git clone git@github.com:reinaldonunes/nextjs-react-curso-coder.git
 ```
 
 Depois de devidamente clonado, instale as pendendências dos projetos, rodando
